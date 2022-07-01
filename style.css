@@ -12,17 +12,44 @@ body {margin:0;padding:0}
 }
 
 .widthbox {
+    display: flex;
     width: 200px;
     border:5px solid white;
     flex: auto;
-    margin: 0 200px;
+    margin: 0 175px;
+}
+
+.headerbox {
+    border:1px solid white;
+    display: flex;
+    flex: 1;
+    height:30px;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+
+.headerlogo,
+.headerlinks {
+    border: 1px solid white;
+    color:#f9faf8;
 }
 
 .headerlogo {
-    color:#f9faf8;
+    font-weight: bold;
     font-size: 24px;
+    height:30px;
+    margin-right: 375px;
 }
 
+.headerlinks {
+    box-sizing: border-box;
+    color:#e5e7eb;
+    font-size:18px;
+    height:28px;
+    margin: 1px 0;
+    text-align:center;
+    padding:1px;
+}
 
 .section2 {
     display: flex;
