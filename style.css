@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: azure;
     display: flex;
     flex-direction: column;
     color: white;
@@ -15,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    height: 500px;
-    margin: 0 200px;
+    min-height: 500px;
+    padding: 0 200px;
 }
 
 .header {
@@ -87,8 +86,8 @@ body {
     color: black;
     text-align: center;
     background-color: lightseagreen;
-    margin: 0 200px;
-    height: 400px;
+    padding: 0 200px;
+    min-height: 400px;
 }
 
 .informationheader {
@@ -119,4 +118,70 @@ body {
 
 .subtext {
     margin-top: 8px;
+}
+
+.quotesection {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    min-height: 300px;
+    padding: 0 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quoter {
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.signupsection {
+    display: flex;
+    min-height: 200px;
+    background-color:#3882f6;
+    margin: 75px 200px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+
+.signuptextpart {
+ font-size: 18px;
+}
+
+.signuptextbold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer {
+    height:100px;
+    background-color: #1f2937;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: transparent;
+    width: 100px;
+    padding: 8px 8px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
 }
